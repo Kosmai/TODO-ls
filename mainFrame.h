@@ -6,10 +6,12 @@
 class MyFrame : public wxFrame
 {
 public:
-	MyFrame(wxWindowID id,const wxString& name);
+	MyFrame(wxWindowID id,const wxString& name, wxPoint, wxSize);
 private:
 	wxWindowID id;
 	wxString name;
+    wxSize size;
+    wxPoint point;
 };
 
 #endif
